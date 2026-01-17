@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>Booking Details</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="../public/assets/css/core.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">KSRCT<em> Venue</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="Venues List.html">Venues</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <br>
+                        <br>
+                        <h2> <em>Enter Your Details</em></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <style>
+        .register .nav-tabs .nav-link:hover {
+            border: none;
+        }
+        
+        .text-align {
+            margin-top: -3%;
+            margin-bottom: -9%;
+            padding: 10%;
+            margin-left: 30%;
+        }
+        
+        .form-new {
+            margin-right: 22%;
+            margin-left: 20%;
+        }
+        
+        .register-heading {
+            margin-left: 21%;
+            margin-bottom: 10%;
+            color: #000000;
+        }
+        
+        .register-heading h1 {
+            margin-left: 21%;
+            margin-bottom: 10%;
+            color: #000000;
+        }
+        
+        .register {
+            background: -webkit-linear-gradient(left, #ffffff, #ffffff);
+            margin-top: 3%;
+            padding: 3%;
+            border-radius: 2.5rem;
+        }
+        
+        .btnSubmit {
+            display: inline-block;
+            border-radius: 1rem;
+            padding: 12px 20px;
+            color: #fff;
+            background-color: #ed563b;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            margin-right: 6%;
+            color: rgb(246, 246, 252);
+            margin-top: 4%;
+        }
+    </style>
+
+    </head>
+
+    <body>
+
+        <!--Form Start-->
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Booking Details</h3>
+                        <div class="row register-form">
+                            <div class="col-md-12">
+                                <form id="form">
+                                    <div class="form-group">
+                                        <input type="text" name="Name" class="form-control" id="Name" placeholder="Your Name *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="Email" class="form-control" id="Email" placeholder="Your Email *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="Number" class="form-control" id="Number" placeholder="Your Contact Number *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="Department" class="form-control" id="Dept" placeholder="Department *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="Purpose" class="form-control" id="Purpose" placeholder="Booking Purpose *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date-input" class="">Arriving Date</label>
+                                        <input type="datetime-local" name="A-datetime" class="form-control" id="A-datetime" placeholder="Date And Time *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date-input" class="">Depture Date</label>
+                                        <input type="datetime-local" name="D-datetime" class="form-control" id="D-datetime" placeholder="Date And Time *" value="" required="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Venue" class="">Choosen Venue:</label>
+                                        <input type="text" id="Venue" name="Venue" class="form-control" value="Main Block Conference Hall" readonly><br><br>
+                                    </div>
+
+
+
+
+
+                                    <input type="submit" id="button" class="btnSubmit btn-block" value="Send Email">
+                                </form>
+
+                                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+                                <script type="text/javascript">
+                                    emailjs.init('Zo_y76SBzQbrY10_n')
+
+
+                                    const btn = document.getElementById('button');
+                                    document.getElementById('form')
+                                        .addEventListener('submit', function(event) {
+                                            event.preventDefault();
+
+                                            btn.value = 'Sending...';
+
+                                            const serviceID = 'default_service';
+                                            const templateID = 'template_ao62al4';
+
+                                            emailjs.sendForm(serviceID, templateID, this)
+                                                .then(() => {
+                                                    btn.value = 'Send Email';
+                                                    alert('Thank You For Booking Conference Hall Please Check Your Mail And Meet Faculty!.....!');
+                                                }, (err) => {
+                                                    btn.value = 'Send Email';
+                                                    alert(JSON.stringify(err));
+                                                });
+                                        });
+                                </script>
+                                </script>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Form Ends-->
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+            emailjs.init('Zo_y76SBzQbrY10_n')
+        </script>
+
+
+
+
+
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+        <!-- ***** Footer Start ***** -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>
+                            Copyright © 2022 3MKH - Created by: <a href="#">Mohammed Aamir</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="assets/js/popper.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!-- Plugins -->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/imgfix.min.js"></script>
+        <script src="assets/js/mixitup.js"></script>
+        <script src="assets/js/accordions.js"></script>
+
+        <!-- Global Init -->
+        <script src="assets/js/custom.js"></script>
+
+    </body>
+
+</html>
